@@ -18,7 +18,7 @@ public class AiController {
 
     public AiController(ChatClient.Builder chatClientBuilder, ToolCallbackProvider toolCallbackProvider){
         this.chatClient = chatClientBuilder
-                .defaultToolCallbacks(toolCallbackProvider)
+                .defaultTools(toolCallbackProvider)
                 .defaultAdvisors(new SimpleLoggerAdvisor())
                 .build();
     }
