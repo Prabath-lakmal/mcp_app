@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-filesystem@2.1.0",
+        "D:\\Spring-AI\\mcp_app\\mcp",
+        "D:\\Spring-AI\\mcp_app\\personal_data"
+      ]
+    }
+  }
+}
